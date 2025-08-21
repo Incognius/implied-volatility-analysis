@@ -73,6 +73,13 @@ The focus is on both **computational methods** (vectorization, variance reductio
 
 ---
 
+## Usage
+
+Run `main.py` to process the option chain, apply pricing models, and extract implied volatilities; this will generate a CSV with results in the `data/` folder.
+Then run `plotting.py` to visualize market vs model prices, fit errors, and the implied volatility smile. The output includes both the processed dataset and plots for analysis.
+
+---
+
 ## Analysis  
 
 - **At-the-Money (ATM) Options**  
